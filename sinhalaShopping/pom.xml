@@ -11,6 +11,7 @@
 
 	<properties>
 		<javaee.version>8.0</javaee.version>
+		<spring.version>4.3.6.RELEASE</spring.version>
 	</properties>
 
 	<dependencies>
@@ -34,11 +35,21 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- spring dependency -->
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+
 	</dependencies>
 	<build>
 
 		<plugins>
-		<!-- updated to latest version of java -->
+			<!-- updated to latest version of java -->
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
