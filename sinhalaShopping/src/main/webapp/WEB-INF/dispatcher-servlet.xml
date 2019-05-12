@@ -22,6 +22,6 @@
    <!-- loading static resources -->
    <mvc:annotation-driven/>
    
-   <mvc:resources location="/assest" mapping="/resources/**/"></mvc:resources>
+   <mvc:resources location="/assest" mapping="/resources/**/" />
    
    </beans>
